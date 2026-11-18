@@ -1,8 +1,8 @@
 # Plan: Svenska övningar – interactieve oefensite (GitHub Pages)
 
-Een statische, interactieve oefensite voor Zweeds taalgebruik, opgebouwd volgens het
-stramien van *Året runt – Basiscursus Zweeds* (12 hoofdstukken, januari t/m december,
-met een uitspraak-introductie). Oefeningen combineren meerkeuze en open vragen, worden
+Een statische, interactieve oefensite voor Zweeds taalgebruik, met dezelfde opbouw als
+een gangbare basiscursus: 13 genummerde hoofdstukken (0 = uitspraak, 1–12), elk met
+de hoofdonderwerpen als ondertitel. Oefeningen combineren meerkeuze en open vragen, worden
 automatisch nagekeken en geven gerichte tips bij fouten.
 
 ---
@@ -14,7 +14,8 @@ uitdrukkelijk voor. Een **openbare** GitHub Pages-site mag daarom geen teksten, 
 dialogen of antwoorden uit de boeken overnemen.
 
 Wat we wel overnemen is het **stramien**:
-- de indeling in hoofdstukken (maanden) en per hoofdstuk *Oefeningen → Herhaling → Woordenschat*;
+- de indeling in hoofdstukken en per hoofdstuk *Oefeningen → Herhaling → Woordenschat*
+  (de hoofdstukken zijn genummerd 0–12, niet naar de maandnamen uit het boek);
 - de volgorde van grammatica en thema's (welke stof wanneer aan bod komt);
 - de soorten oefeningen (invullen, vertalen, zinnen ordenen, R/F, tabellen, klok, dialoog ordenen).
 
@@ -27,19 +28,19 @@ naast de site gebruiken; de site verwijst alleen naar het hoofdstuknummer.
 
 | # | Hoofdstuk | Grammatica | Thema / woordenschat |
 |---|-----------|------------|----------------------|
-| 0 | Klara, färdiga … Uttal! | sj-ljud / tj-ljud, harde/zachte klinkers na k/sk/g, klemtoon, spreektaalvormen (*ru*, *rin*) | klanken |
-| 1 | Januari | presens (groep 1–4), V2-regel en inversie, persoonlijke vnw. (subjekt), ja/nee-vragen, ontkenning *inte*, *en/ett* + bepaalde vorm | kennismaken, landen en talen, getallen, klokkijken |
-| 2 | Februari | tijdsbepaling in het fundament (subjekt op plaats 3), meervoud substantiv, imperativ, modale hulpwerkwoorden (*kan, vill, får, måste*) | dagritme, weekdagen |
-| 3 | Mars | frequentie-adverbia (*ofta, aldrig, ibland, brukar*), *gilla / tycka om (att)*, subjekt- vs objektvormen | hobby's, vrije tijd |
-| 4 | April | preteritum (zwak en sterk), subjekt-/objekt-/possessieve voornaamwoorden | familie, verleden week |
-| 5 | Maj | perfekt + supinum (*har*), keuze preteritum ↔ perfekt (dåtidsadverb), positions- vs destinationsadverb (*hemma/hem*, *där/dit*), *än* + subjektvorm | ervaringen, uitjes |
-| 6 | Juni | tijdsuitdrukkingen (*om, för … sedan, i, på*), vervoer met *åka/ta/gå* | reizen, OV, geld |
-| 7 | Juli | nevenschikkende voegwoorden (*och, men, så, för, eller*), *Det gör jag också / Inte jag heller* | zomer, natuur, regels en verboden |
-| 8 | Augusti | *tycka / tro / tänka*, vertellen in de verleden tijd, då- vs nutidsadverb | eten, feesten (kräftskiva) |
-| 9 | September | stamtijden-tabel (infinitiv, presens, preteritum, supinum), indirecte rede | telefoneren, digitaal |
-| 10 | Oktober | onderschikkende voegwoorden + bijzinvolgorde (*inte* vóór het werkwoord), *sin/sitt/sina*, plaatsvoorzetsels | wonen, interieur |
-| 11 | November | positionsverb (*ligger/sitter/står/går och …*) | gezondheid, bij de dokter |
-| 12 | December | adjektiv: onbepaald / bepaald / meervoud (*en fin bok – den fina boken – fina böcker*), *liten/lilla/små*, vergelijking | Kerst, Lucia |
+| 0 | Uitspraak | sj-ljud / tj-ljud, harde/zachte klinkers na k/sk/g, klemtoon, spreektaalvormen (*ru*, *rin*) | klanken |
+| 1 | Hoofdstuk 1 | presens (groep 1–4), V2-regel en inversie, persoonlijke vnw. (subjekt), ja/nee-vragen, ontkenning *inte*, *en/ett* + bepaalde vorm | kennismaken, landen en talen, getallen, klokkijken |
+| 2 | Hoofdstuk 2 | tijdsbepaling in het fundament (subjekt op plaats 3), meervoud substantiv, imperativ, modale hulpwerkwoorden (*kan, vill, får, måste*) | dagritme, weekdagen |
+| 3 | Hoofdstuk 3 | frequentie-adverbia (*ofta, aldrig, ibland, brukar*), *gilla / tycka om (att)*, subjekt- vs objektvormen | hobby's, vrije tijd |
+| 4 | Hoofdstuk 4 | preteritum (zwak en sterk), subjekt-/objekt-/possessieve voornaamwoorden | familie, verleden week |
+| 5 | Hoofdstuk 5 | perfekt + supinum (*har*), keuze preteritum ↔ perfekt (dåtidsadverb), positions- vs destinationsadverb (*hemma/hem*, *där/dit*), *än* + subjektvorm | ervaringen, uitjes |
+| 6 | Hoofdstuk 6 | tijdsuitdrukkingen (*om, för … sedan, i, på*), vervoer met *åka/ta/gå* | reizen, OV, geld |
+| 7 | Hoofdstuk 7 | nevenschikkende voegwoorden (*och, men, så, för, eller*), *Det gör jag också / Inte jag heller* | zomer, natuur, regels en verboden |
+| 8 | Hoofdstuk 8 | *tycka / tro / tänka*, vertellen in de verleden tijd, då- vs nutidsadverb | eten, feesten (kräftskiva) |
+| 9 | Hoofdstuk 9 | stamtijden-tabel (infinitiv, presens, preteritum, supinum), indirecte rede | telefoneren, digitaal |
+| 10 | Hoofdstuk 10 | onderschikkende voegwoorden + bijzinvolgorde (*inte* vóór het werkwoord), *sin/sitt/sina*, plaatsvoorzetsels | wonen, interieur |
+| 11 | Hoofdstuk 11 | positionsverb (*ligger/sitter/står/går och …*) | gezondheid, bij de dokter |
+| 12 | Hoofdstuk 12 | adjektiv: onbepaald / bepaald / meervoud (*en fin bok – den fina boken – fina böcker*), *liten/lilla/små*, vergelijking | Kerst, Lucia |
 
 Elk hoofdstuk krijgt:
 1. **Grammatica-kaart** – korte eigen uitleg met voorbeelden (wordt ook als tip-bron gebruikt).
@@ -132,8 +133,6 @@ vergelijking.
 - **Voortgang** in `localStorage` (per vraag: aantal pogingen, goed/fout, datum) →
   overzicht per hoofdstuk en een "zwakke punten"-herhaalset. Werkt ook zonder opslag.
 - **Invoerhulp**: knoppen voor å, ä, ö (en sneltoetsen, bijv. `a` + `:`).
-- **Uitspraak (optioneel)**: Web Speech API met een Zweedse stem (`sv-SE`) om zinnen
-  te laten voorlezen; geen eigen audio-opnames nodig.
 - **Taal van de interface**: Nederlands; opdrachten in het Nederlands, oefenstof in het Zweeds.
 - **Toegankelijk en mobiel**: werkt op telefoon, met toetsenbord te bedienen, licht/donker thema.
 - **Publicatie**: GitHub Actions bouwt de site en zet hem op GitHub Pages bij elke push naar `main`.
@@ -210,17 +209,27 @@ items:
 |------|--------|-----------|
 | 1. Fundament | projectopzet, Vite, Pages-workflow, routing, schema, vraagtypen `mc`, `gap`, `gap-select`, normalisatie | lege site live op GitHub Pages |
 | 2. Nakijken & tips | diagnosefuncties, escalerende hulp, `steps` (gecombineerde vragen), unit-tests | nakijkmotor compleet |
-| 3. Pilot hoofdstuk 1 | grammatica-kaarten + oefeningen + woordenschat Januari; typen `translate`, `order`, `table`, `clock`, `match`, `truefalse` | één volledig hoofdstuk om te testen |
+| 3. Pilot hoofdstuk 1 | grammatica-kaarten + oefeningen + woordenschat hoofdstuk 1; typen `translate`, `order`, `table`, `clock`, `match`, `truefalse` | één volledig hoofdstuk om te testen |
 | 4. Evaluatie | zelf/met medecursisten uitproberen, tips en vraagvormen bijstellen | vastgesteld sjabloon |
 | 5. Hoofdstuk 0 en 2–6 | inhoud schrijven volgens sjabloon, *Herhaling*-sets, `dialogue`, `free` | eerste helft van het jaar |
 | 6. Hoofdstuk 7–12 | idem | volledige cursus |
-| 7. Extra's | voortgangsoverzicht, "zwakke punten"-herhaling, toetsmodus met willekeurige mix, uitspraak met TTS, donker thema | afronding |
+| 7. Extra's | "zwakke punten"-herhaling, toetsmodus | afronding |
 
 ---
 
-## 7. Open beslissingen
+## 7. Beslissingen
 
-1. Wordt de site openbaar of privé? (Bepaalt mede hoe strikt de inhoud los van het boek moet staan; het plan gaat uit van volledig eigen inhoud.)
-2. Vanilla JS + Vite (advies) of een framework zoals Astro/Svelte?
-3. Uitspraak met browser-spraak (TTS) gewenst?
-4. Wie controleert de Zweedse oefenstof?
+1. De site is **openbaar** → alle oefenstof is zelf geschreven.
+2. **Vanilla JS + Vite**.
+3. **Geen** voorleesfunctie (TTS).
+4. De Zweedse oefenstof wordt door Claude gereviewd bij het schrijven van elk hoofdstuk.
+5. Hoofdstukken zijn **genummerd 0–12** met de hoofdonderwerpen als ondertitel.
+
+## 8. Stand van zaken
+
+- [x] Fase 1: fundament, routing, Pages-workflow
+- [x] Fase 2: nakijkmotor met foutanalyse, oplopende hulp, samengestelde vragen, tests
+- [x] Fase 3: hoofdstuk 0 (uitspraak) en hoofdstuk 1 (kennismaken), alle vraagtypen
+- [ ] Fase 4: evaluatie met gebruiker
+- [ ] Fase 5–6: hoofdstuk 2–12, met herhalingssets vanaf hoofdstuk 2
+- [ ] Fase 7: zwakke-punten-herhaling, toetsmodus
