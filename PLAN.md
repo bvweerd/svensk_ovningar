@@ -29,7 +29,7 @@ naast de site gebruiken; de site verwijst alleen naar het hoofdstuknummer.
 | # | Hoofdstuk | Grammatica | Thema / woordenschat |
 |---|-----------|------------|----------------------|
 | 0 | Uitspraak | sj-ljud / tj-ljud, harde/zachte klinkers na k/sk/g, klemtoon, spreektaalvormen (*ru*, *rin*) | klanken |
-| 1 | Hoofdstuk 1 | presens (groep 1–4), V2-regel en inversie, persoonlijke vnw. (subjekt), ja/nee-vragen, ontkenning *inte*, *en/ett* + bepaalde vorm | kennismaken, landen en talen, getallen, klokkijken |
+| 1 | Hoofdstuk 1 | presens (-ar, -er, -r, onregelmatig), V2-regel en inversie, persoonlijke vnw. (subjekt), ja/nee-vragen, ontkenning *inte*, *en/ett* + bepaalde vorm | kennismaken, landen en talen, getallen, klokkijken |
 | 2 | Hoofdstuk 2 | tijdsbepaling in het fundament (subjekt op plaats 3), meervoud substantiv, imperativ, modale hulpwerkwoorden (*kan, vill, får, måste*) | dagritme, weekdagen |
 | 3 | Hoofdstuk 3 | frequentie-adverbia (*ofta, aldrig, ibland, brukar*), *gilla / tycka om (att)*, subjekt- vs objektvormen | hobby's, vrije tijd |
 | 4 | Hoofdstuk 4 | preteritum (zwak en sterk), subjekt-/objekt-/possessieve voornaamwoorden | familie, verleden week |
@@ -108,7 +108,7 @@ terugkomen (van herkennen naar zelf produceren).
    - *woordvolgorde*: zelfde woorden, andere volgorde → tip over V2 / inversie / bijzin
      (welke tip hangt af van het `topic` van de vraag).
    - *en/ett*: verkeerd lidwoord of uitgang (-en/-et, -n/-t) → tip over het geslacht.
-   - *werkwoordsgroep*: -ar/-er/-r-uitgang verwisseld → tip over de groepen.
+   - *werkwoordsgroep*: -ar/-er/-r-uitgang verwisseld → tip over de uitgang.
    - *inte-plaats*: *inte* op de verkeerde plek in hoofd- of bijzin.
 3. **Algemene tip** uit de grammatica-kaart van het onderwerp (`topic`), met link ernaar.
 

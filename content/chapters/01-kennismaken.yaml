@@ -11,16 +11,16 @@ grammar:
     body: |
       Het Zweedse werkwoord verandert niet per persoon. *Jag talar, du talar, hon talar, vi talar, de talar.* Je hoeft per werkwoord dus maar één vorm te leren.
 
-      De vorm hangt wel af van de **groep** waartoe het werkwoord hoort:
+      Hoe je de presens maakt, hangt af van het werkwoord. Er zijn vier patronen:
 
-      | Groep | Infinitief | Presens | Zo maak je hem |
-      |---|---|---|---|
-      | 1 | jobba, tala, stanna | jobbar, talar, stannar | infinitief + **r** |
-      | 2 | köpa, läsa, bygga | köper, läser, bygger | **-a** wordt **-er** |
-      | 3 | bo, tro, gå | bor, tror, går | infinitief (korte stam) + **r** |
-      | 4 | vara, ha, göra, heta | är, har, gör, heter | onregelmatig: uit je hoofd leren |
+      | Infinitief | Presens | Zo maak je hem |
+      |---|---|---|
+      | jobba, tala, stanna | jobbar, talar, stannar | **-r** achter de infinitief |
+      | köpa, läsa, heta | köper, läser, heter | de **-a** wordt **-er** |
+      | bo, tro, gå | bor, tror, går | korte werkwoorden: **-r** erachter |
+      | vara, ha, göra | är, har, gör | onregelmatig: uit je hoofd leren |
 
-      Groep 1 en 2 zie je niet aan de infinitief: allebei eindigen ze op *-a*. Leer daarom bij elk nieuw werkwoord meteen de presensvorm.
+      Of een werkwoord op *-a* een **-ar**- of een **-er**-vorm krijgt, zie je niet aan de infinitief. Leer daarom bij elk nieuw werkwoord meteen de presensvorm mee: *stanna – stannar*, *köpa – köper*.
 
   - id: v2
     title: Woordvolgorde – het werkwoord op plaats 2
@@ -160,16 +160,16 @@ sections:
             gaps: [{ answers: ["jobbar"] }]
           - type: gap
             text: "Bram ___ (läsa) en tidning."
-            gaps: [{ answers: ["läser"], feedback: [{ match: "läsar", tip: "läsa hoort bij groep 2: de -a wordt -er." }] }]
+            gaps: [{ answers: ["läser"], feedback: [{ match: "läsar", tip: "Bij läsa wordt de -a een -er: läser." }] }]
           - type: gap
             text: "Vi ___ (bo) i Västerås."
-            gaps: [{ answers: ["bor"], feedback: [{ match: "boar", tip: "bo is een kort werkwoord (groep 3): alleen -r erachter." }] }]
+            gaps: [{ answers: ["bor"], feedback: [{ match: "boar", tip: "bo is een kort werkwoord: er komt alleen -r achter." }] }]
           - type: gap
             text: "Wilma ___ (tala) engelska och lite tyska."
             gaps: [{ answers: ["talar"] }]
           - type: gap
             text: "Olle ___ (köpa) bröd varje morgon."
-            gaps: [{ answers: ["köper"], feedback: [{ match: "köpar", tip: "köpa hoort bij groep 2: de -a wordt -er." }] }]
+            gaps: [{ answers: ["köper"], feedback: [{ match: "köpar", tip: "Bij köpa wordt de -a een -er: köper." }] }]
           - type: gap
             text: "Jag ___ (vara) från Nederländerna."
             gaps: [{ answers: ["är"], feedback: [{ match: ["varar", "var"], tip: "vara is onregelmatig. In presens: jag är, du är, hon är …" }] }]
@@ -181,33 +181,33 @@ sections:
             gaps: [{ answers: ["går"] }]
           - type: gap
             text: "Du ___ (heta) Ingrid, eller hur?"
-            gaps: [{ answers: ["heter"], feedback: [{ match: "hetar", tip: "heta wordt heter, net als de werkwoorden van groep 2." }] }]
+            gaps: [{ answers: ["heter"], feedback: [{ match: "hetar", tip: "Bij heta wordt de -a een -er: heter." }] }]
 
-      - id: werkwoordsgroep
-        title: Welke groep? En welke vorm?
-        instruction: Kies eerst de groep van het werkwoord en vul daarna de presensvorm in.
+      - id: vorm-en-gebruik
+        title: Kies de vorm en gebruik hem
+        instruction: Kies eerst de juiste presensvorm. Gebruik het werkwoord daarna in een eigen zin.
         topic: presens
         items:
           - type: steps
             steps:
-              - { type: mc, prompt: "Tot welke groep hoort **stanna** (blijven)?", options: ["groep 1 (-ar)", "groep 2 (-er)", "groep 3 (-r)", "groep 4 (onregelmatig)"], answer: 0, shuffle: false, tip: "Deze groep kun je niet aan de infinitief zien; leer hem mee: stanna – stannar." }
-              - { type: gap, text: "Vi ___ hemma idag.", gaps: [{ answers: ["stannar"] }] }
+              - { type: mc, prompt: "**stanna** (blijven): Vi ___ hemma idag.", options: ["stannar", "stanner", "stanna"], answer: 0, tip: "stanna krijgt -r erachter: stannar. De infinitief zelf (stanna) is nooit de presens." }
+              - { type: translate, prompt: "Maak de zin ontkennend: Vi stannar hemma idag.", answers: ["Vi stannar inte hemma {idag|i dag}."], topic: inte }
           - type: steps
             steps:
-              - { type: mc, prompt: "Tot welke groep hoort **bygga** (bouwen)?", options: ["groep 1 (-ar)", "groep 2 (-er)", "groep 3 (-r)", "groep 4 (onregelmatig)"], answer: 1, shuffle: false, tip: "Leer hem mee: bygga – bygger." }
-              - { type: gap, text: "Grannarna ___ ett nytt hus.", gaps: [{ answers: ["bygger"] }] }
+              - { type: mc, prompt: "**bygga** (bouwen): Grannarna ___ ett nytt hus.", options: ["bygger", "byggar", "bygga"], answer: 0, tip: "Bij bygga wordt de -a een -er: bygger." }
+              - { type: translate, prompt: "Maak er een ja/nee-vraag van: Grannarna bygger ett nytt hus.", answers: ["Bygger grannarna ett nytt hus?"], topic: vragen }
           - type: steps
             steps:
-              - { type: mc, prompt: "Tot welke groep hoort **tro** (geloven, denken)?", options: ["groep 1 (-ar)", "groep 2 (-er)", "groep 3 (-r)", "groep 4 (onregelmatig)"], answer: 2, shuffle: false, tip: "tro eindigt niet op -a. Korte werkwoorden zoals bo, tro en gå horen bij groep 3." }
-              - { type: gap, text: "Jag ___ det.", gaps: [{ answers: ["tror"] }] }
+              - { type: mc, prompt: "**tro** (geloven, denken): Jag ___ det.", options: ["tror", "troar", "troer"], answer: 0, tip: "tro is een kort werkwoord: alleen -r erachter." }
+              - { type: translate, prompt: "Vertaal: Ik geloof het niet.", answers: ["Jag tror inte det.", "Det tror jag inte."], topic: inte }
           - type: steps
             steps:
-              - { type: mc, prompt: "Tot welke groep hoort **göra** (doen)?", options: ["groep 1 (-ar)", "groep 2 (-er)", "groep 3 (-r)", "groep 4 (onregelmatig)"], answer: 3, shuffle: false, tip: "göra volgt geen vaste regel." }
-              - { type: gap, text: "Vad ___ du?", gaps: [{ answers: ["gör"], feedback: [{ match: ["görar", "göra"], tip: "göra is onregelmatig: de presens is gör." }] }] }
+              - { type: mc, prompt: "**göra** (doen): Vad ___ du?", options: ["gör", "görar", "göra"], answer: 0, tip: "göra is onregelmatig: de presens is gör." }
+              - { type: translate, prompt: "Vertaal: Wat doen jullie vandaag?", answers: ["Vad gör ni {idag|i dag}?"], topic: vragen }
           - type: steps
             steps:
-              - { type: mc, prompt: "Tot welke groep hoort **flytta** (verhuizen)?", options: ["groep 1 (-ar)", "groep 2 (-er)", "groep 3 (-r)", "groep 4 (onregelmatig)"], answer: 0, shuffle: false, tip: "Leer hem mee: flytta – flyttar." }
-              - { type: gap, text: "Vi ___ till Sverige i maj.", gaps: [{ answers: ["flyttar"] }] }
+              - { type: mc, prompt: "**flytta** (verhuizen): Vi ___ till Sverige i maj.", options: ["flyttar", "flytter", "flytta"], answer: 0, tip: "flytta krijgt -r erachter: flyttar." }
+              - { type: translate, prompt: "Begin de zin met *I maj*: Vi flyttar till Sverige i maj.", answers: ["I maj flyttar vi till Sverige."], topic: v2 }
 
       - id: v2-herkennen
         title: Klopt de woordvolgorde?
